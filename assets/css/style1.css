@@ -86,38 +86,6 @@ img {
     padding-top: 10px;
     margin-right: 12px;
 }
-.form {
-	color: black;
-}
-input[type=text] {
-	color: #777;
-    width: 100%;
-    padding: 12px 20px;
-    margin: 10px 0 20px 0;
-    box-sizing: border-box;
-}
-
-input[type=submit] {
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 10px;
-    text-decoration: none;
-    margin: 4px 2px;
-	width: 10%;
-    cursor: pointer;
-
-}	
-textarea {
-	width: 100%;
-	resize: none;
-	padding: 12px 20px;
-    margin: 10px 0 20px 0;
-}
-.portimages{
-	list-style-type: none;
-}	
-
 .sidebar {  
   background: #fff;
   padding: 20px;

@@ -1,60 +1,57 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>CSS Stylesheets with Relative Paths</title>
-  <link rel="stylesheet" type="text/css" href="pf.css">
+	<title>Portfolio Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-
-<body>
-
- 	 <header>
-  	 	<h1 class="veryTopHeader">Contacts Page</h1>
-    	<nav>
-    		<a href="/About/">About</a> 
-   			<a href="/Portfolio/">Portfolio</a> 
-    		<a href="/Contact/">Contact</a> 
+<body background="assets/images/cork-wallet.png">
+	<header>		
+		<nav>
+		  <ul class="topnav" id="topnav">			
+			<li class="li"><a href="#name">Kim Mathis</a></li>
+			<li><a href="index.html">About</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			
+		  <ul>
 		</nav>
-  </header>
+	</header>
 
-    <section id="left">
-    &lt;section&gt; #666
-  </section>
+	<div class="main">
+		<section class="aboutme">
+			<h2>Contact</h2>
+			<hr></hr>
+			<form class="form">
+			  Name:<br>
+			  <input type="text" name="name" value="John Smith"><br>
+			  Email:<br>
+			  <input type="text" name="email" value="example@gmail.com">
+			  Message:<br>
+			  <textarea name="message" cols="20" rows="10"></textarea>
+			  <input type="submit" value="Submit">
+			</form>
 
-  <section id="middle">
-    &lt;section&gt; #888
-  </section>
+		</section>
 
-  <section id="right">
-    &lt;section&gt; #666
-  </section>
+		<section class="sidebar">			
 
+	      <h3>Connect with Me</h3>
+	      <hr></hr>
+	        <nav class="connect">
+	           <ul>
+	              <li><a href="https://stackoverflow.com/users/8169398/kim?tab=profile"><img src="assets/images/github2-128.png" alt="StackOverflow"></a></li>
+	              <li><a href="www.linkedin.com/in/kdmathis"><img src="assets/images/square-linkedin-128.png" alt="LinkedIn"> </a></li>
+	              <li><a href="https://github.com/settings/profile"><img src="assets/images/stackoverflow.png" alt="GitHub"> </a></li>
+	          </ul>
+	        </nav>    
 
-    <section>
+		<section>
 
-      <h2>Your Name</h2>
-
-      <img src="https://placehold.it/200x200" alt="Your Name">
-
-      <p>Write a short paragraph or two about yourself, or use placeholder text from <a href="http://www.lipsum.com/">www.lipsum.com</a></p>
-    </section>
-
-    <section>
-      <h2>Contact Info</h2>
-      <ul>
-        <li><strong>Email:</strong> <a href="#">someplace@gmail.com</a></li>
-        <li><strong>Github:</strong> <a href="#">sampleName</a></li>
-        <li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-      </ul>
-    </section>
-  </div>
-
-    <footer>
-    &lt;footer&gt; #ccc
+	</div>
+	</body>
+	<footer class="clear">
+    <p>
+      &#169 Copyright 2017 Kim Mathis
+    </p>
   </footer>
-
-  
-</body>
-
 </html>
